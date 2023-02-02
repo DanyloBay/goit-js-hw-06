@@ -29,7 +29,7 @@ function createBoxes() {
 }
 
 function destroyBoxes() {
-  boxForElements.childNodes.forEach(box => boxForElements.removeChild(box));
+  boxForElements.innerHTML = '';
 }
 
 function getRandomHexColor() {
